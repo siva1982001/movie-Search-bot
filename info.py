@@ -28,7 +28,10 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 START_MSG = """
 **Hi, I'm Media Search bot**
 
+
 Here you can search files in inline mode. Just press following buttons and start searching.
+Note: Make sure the name of the movie you are looking for is correct else bot cannot index it while searching.
+IF movie is not available than request movies any thing in @movie_sup_bot.
 """
 
 SHARE_BUTTON_TEXT = 'Checkout {username} for searching files'
